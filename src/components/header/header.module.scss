@@ -1,0 +1,45 @@
+.header {
+  height: 75px;
+  background-color: rgb(14, 14, 14);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+
+  .container {
+    max-width: 80%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  a {
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+}
+
+.screenPadding {
+  padding: 0 30px;
+}
+
+.whiteLetters {
+  color: #fff;
+}
+
+.title {
+  font-size: 22px;
+  text-transform: capitalize;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav p {
+  font-size: 14px;
+  padding: 0 12px;
+}

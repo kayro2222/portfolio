@@ -1,0 +1,55 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.title {
+  font-size: 36px;
+  text-transform: uppercase;
+}
+
+.lineSeparator {
+  height: 8px;
+  background-color: #000;
+  border-radius: 4px;
+  width: 15%;
+}
+
+.columns {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.sectionTitle {
+  width: 55%;
+}
+
+.description p {
+  text-align: justify;
+}
+
+.sectionImage {
+  width: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.image {
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  justify-content: space-around;
+  padding: 12px 0;
+}
